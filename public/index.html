@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Connect and share to explore sports" />
+  <meta property="title" content="MediaB4U - Connect and share to explore sports" />
+  <meta property="image" content="%PUBLIC_URL%/image/apple-touch-icon.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link href="%PUBLIC_URL%/image/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
+  <link href="%PUBLIC_URL%/image/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/image/apple-touch-icon.png" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content=" Abdul Mumin" />
+  <meta property="og:image" content="%PUBLIC_URL%/image/apple-touch-icon.png" />
+  <meta property="og:title" content="Connect and share to explore sports" />
+  <meta property="og:description" content="MediaB4U - Connect and share to explore sports" />
+  <meta property="og:type" content="website" />
+  <meta name="keywords" content="MediaB4U,social,media,sports,enthusiast">
+  <link rel="icon" href="%PUBLIC_URL%/image/favicon.ico" />
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <title>MediaB4U - Connect and share to explore sports</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('worker.js').then(function (registration) {
+        }, function (err) {
+        }).catch(function (err) {
+        });
+      });
+    } else {
+    }
+  </script>
+</body>
+
+</html>
