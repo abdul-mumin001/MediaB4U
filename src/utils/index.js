@@ -21,6 +21,10 @@ export const sideBarItems = [
     Icon: MdBookmark,
   },
   {
+    name: "SportsNews",
+    Icon: MdExplore,
+  },
+  {
     name: "Messages",
     Icon: MdMessage,
   },

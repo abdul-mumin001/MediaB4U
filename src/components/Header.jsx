@@ -59,7 +59,7 @@ export const Header = () => {
           to="/"
           className="site-title  text-xl md:flex gap-2 items-center hidden "
         >
-          <img src={LOGO} alt="ZenGram" className="w-10" />
+          <img src={LOGO} alt="MediaB4U" className="w-10" />
           <h4>
             Media
             <span className="text-primary">B4U</span>
